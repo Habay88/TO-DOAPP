@@ -33,7 +33,7 @@ public void getTasksTest() {
 			.of(new Task( "tree climbing", "Hunting games"),
 			new Task( "meeting",  "All staff")).collect(Collectors.toList()));
 	assertEquals(2, service.getUser().size());
-			//.getUsers().size());
+	
 }
 
 
